@@ -9,6 +9,7 @@ packages = [{include = "stock_analysis_using_ml"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 pandas = "^1.5.1"
+nsepy = "^0.8"
 
 
 [build-system]
