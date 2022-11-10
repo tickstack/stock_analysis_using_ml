@@ -1,8 +1,12 @@
 # stock_analysis_using_ml
 
-## Library and there use:
+## Things and their uses:
+1. poetry library
+2. cookiecutter library
+3. Makefile
 
-### Poetry
+
+### 1. Poetry
 Add poetry for library dependency resolution:
 
 #### Command to create new poetry project
@@ -35,4 +39,16 @@ poetry install
 #### To update dependency
 ```bash
 poetry update
+```
+
+### 2. Cookiecutter
+To get formatted directory temple and use it that as start or create new as i did for data science
+```bash
+cookiecutter templete_name
+``` 
+### 3. Makefile
+It's been used to make things more automated and can write full process in single command and run like below
+
+```bash
+make command
 ```
